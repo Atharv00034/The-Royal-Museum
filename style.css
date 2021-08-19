@@ -4,8 +4,8 @@
 }
 
 .navbar{
-    font-size: 22px;
-    background-color: rebeccapurple;
+    font-size: 20px;
+    background-color: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -25,5 +25,32 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: aqua;
+}
+
+.nav-para{
+    color: white;
+    transform: rotate(-20deg);
+    margin-left: 10vh;
+    margin-top: 5vh;
+    font-size: 5vh;
+}
+
+.nav-contact a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav-contact{
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+    margin-top: 3vh;
+    margin-right: 10vh;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 3vh;
 }
