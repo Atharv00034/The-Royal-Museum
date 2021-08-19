@@ -36,9 +36,10 @@ nav ul li a{
     /* transform: rotate(-20deg); */
     position: absolute;
     right: 0;
-    margin-right: 8vh;
+    margin-right: 3vh;
     margin-top: 5vh;
     font-size: 5vh;
+    cursor: default;
 }
 
 .nav-contact a{
