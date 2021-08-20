@@ -27,6 +27,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+
 nav ul li :hover{
     text-decoration: underline;
     color: white;
@@ -61,7 +62,7 @@ nav ul li :hover{
     margin: 5px 0;
     padding: 5px;
 }
-.learn-more{
+.learn-more{   
     padding: 0;
     width: 85px;
     height: 40px;
