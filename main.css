@@ -43,4 +43,15 @@ nav ul li :hover{
 
 .para{
     color: white;
+    font-size: 55px;
+    /* text-decoration: underline; */
+    padding-top: 80px;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.para-2{
+    font-size: 40px;
+    margin-top: -33px;
+    padding-top: 1px;
 }
