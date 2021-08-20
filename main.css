@@ -40,13 +40,42 @@ nav ul li :hover{
 }
 
 .nav-below-box{
-    border: 1px solid black;
     color: black;
-    border-width: 1px;
-    width: 500px;
+    width: 412px;
+    height: 383px;
     background-color: white;
-}
+    font-family: 'Merriweather Sans', sans-serif;
+    position: absolute;
+    right: 40px;
+    top: 360px;
 
+}
+.history{
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    margin: 5px 0 0 0;
+}
+.p{
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px;
+}
 .learn-more{
-    padding: 0 100px;
+    padding: 0;
+    width: 85px;
+    height: 40px;
+    margin: 0 0 0 310px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-below-box:hover{
+    background-color: black;
+    color: white;
+}
+.learn-more:hover{
+    background-color: white;
+    color: black;
 }
