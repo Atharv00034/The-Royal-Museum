@@ -38,3 +38,15 @@ nav ul li :hover{
     position: absolute;
     left: 0;
 }
+
+.nav-below-box{
+    border: 1px solid black;
+    color: black;
+    border-width: 1px;
+    width: 500px;
+    background-color: white;
+}
+
+.learn-more{
+    padding: 0 100px;
+}
