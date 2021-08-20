@@ -74,9 +74,25 @@ nav ul li :hover{
     box-shadow: inset;
     margin-top: 200px;
     margin-bottom: 100px;
-    margin-right: 20px;
+    margin-right: 25px;
     color: white;
-    margin-left: 20px;
+    margin-left: 25px;
     padding: 10px;
     background-color: black;
+    border-radius: 8px;
+}
+.about-para{
+    font-size: 25px;
+    margin-left: 65px;
+    margin-right: 5px;
+}
+.about-head{
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+}
+.about-img-1{
+    margin-left: 8px;
+    margin-bottom: 5px;
 }
