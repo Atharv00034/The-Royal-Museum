@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 nav{
     background-color: black;
@@ -18,3 +22,4 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+
