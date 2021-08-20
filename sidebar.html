@@ -8,6 +8,7 @@
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style1.css">
    </head>
 <body>
   <div class="sidebar">
@@ -89,6 +90,26 @@
          <i class='bx bx-log-out' id="log_out" ></i>
      </li>
     </ul>
+  </div>
+  <div class="carousel-wrapper">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <div class="carousel-item item-1">
+      <a href="#item-3" class="arrow-prev arrow"></a>
+      <a href="#item-2" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-2">
+      <a href="#item-1" class="arrow-prev arrow"></a>
+      <a href="#item-3" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-3">
+      <a href="#item-2" class="arrow-prev arrow"></a>
+      <a href="#item-1" class="arrow-next arrow"></a>
+    </div>
+
   </div>
   <script>
   let sidebar = document.querySelector(".sidebar");
