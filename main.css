@@ -10,9 +10,10 @@ body{
 nav{
     background-color: black;
     padding: 4vh;
+    height: 7vh;
 }
 nav ul{
-    
+    float: right;
 }
 nav ul li{
     display: inline;
@@ -25,4 +26,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+}
+
+.logo-text{
+    color: white;
+    position: absolute;
+    left: 0;
 }
