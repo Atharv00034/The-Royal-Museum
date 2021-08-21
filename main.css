@@ -42,51 +42,51 @@ nav ul li :hover {
 
 .para {
   color: white;
-  font-size: 55px;
+  font-size: 7.2499vh;
   /* text-decoration: underline; */
-  padding-top: 80px;
+  padding-top: 5.20833vw;
   text-transform: uppercase;
   text-align: center;
-}
+} 
 
 .para-2 {
-  font-size: 40px;
-  margin-top: -33px;
-  padding-top: 1px;
+  font-size: 5.305vh;
+  margin-top: -2.48vw;
+  padding-top: 0.0605vw;
 }
 .about {
-  font-size: 20px;
+  font-size: 2.6525vh;
   box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
   box-shadow: inset;
-  margin-top: 200px;
-  margin-bottom: 100px;
-  margin-right: 25px;
+  margin-top: 26.041vw;
+  margin-bottom: 13.0208vw;
+  margin-right: 3.255vw;
   color: white;
-  margin-left: 25px;
-  padding: 10px;
+  margin-left: 3.255vw;
+  padding: 1.329vh;
   background-color: black;
-  border-radius: 8px;
+  border-radius: 1.0368vh;
   height: 95vh;
 }
 .about-para {
-  font-size: 25px;
-  margin-left: 65px;
-  margin-right: 5px;
+  font-size: 3.255vw;
+  margin-left: 8.441vw;
+  margin-right: 0.649935vw;
 }
 .about-head {
-  margin-left: 20px;
+  margin-left: 2.5974vw;
   text-align: center;
 }
 .flex {
   display: flex;
 }
 .about-img-1 {
-  margin-left: 12px;
-  margin-bottom: 5px;
+  margin-left: 1.558vw;
+  margin-bottom: 1vw;
 }
 .about-img-3{
-  margin-right: 12px;
-  margin-bottom: 5px;
+  margin-right: 1.558vw;
+  margin-bottom: 1vw;
 }
 .gallery {
   background-color: white;
