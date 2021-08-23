@@ -44,7 +44,7 @@ nav ul li :hover {
   color: white;
   font-size: 9vh;
   /* text-decoration: underline; */
-  padding-top: 5.20833vw;
+  padding-top: 4.5vw;
   text-transform: uppercase;
   text-align: center;
 } 
@@ -54,6 +54,37 @@ nav ul li :hover {
   margin-top: -2.48vw;
   padding-top: 0.0605vw;
 }
+
+.arrow {
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.arrows{
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.right{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.explore{
+  margin-top: 14vh;
+  margin-bottom: 0.01vh;
+  font-size: 35px;
+}
+
 .about {
   box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
   box-shadow: inset;
@@ -186,8 +217,8 @@ nav ul li :hover {
 }
 
 .mynam {
-  margin: 16px;
-  width: 575px;
+  margin: 2vh;
+  /* width: 15vw; */
   height: 189px;
   width: 561px;
   margin: 16px;
@@ -206,8 +237,9 @@ nav ul li :hover {
   border-radius: 8px;
   cursor: pointer;
   outline: none;
-  height: 25px;
-  width: 60px;
+  /* height: 5vh; */
+  padding: 2vh;
+  /* width: 60px; */
 }
 
 .btn a {
@@ -226,6 +258,37 @@ nav ul li :hover {
   padding-top: 135px;
 }
 
+.main-page-contact-form{
+  background-color: black;
+  margin-bottom: 10vh;
+  display: flex;
+  color: white;
+  margin-left: 3.255vw;
+  margin-right: 3.255vw;
+  box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 50%);
+  box-shadow: inset;
+  border-radius: 1.0368vh;
+}
+
+.main-page-contact-text{
+  margin-left: 7vw;
+  font-size: 40px;
+}
+
+.main-page-contact-button{
+  background-color: white;
+  position: absolute;
+  right: 0;
+  margin-top: 5vh;
+  margin-right: 10vw;
+  font-size: 20px;
+  height: 11vh;
+}
+
+.main-page-contact-button a{
+  color: black;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -233,8 +296,9 @@ footer {
   display: flex;
   width: 100%;
   align-items: center;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
+  float: bottom;
   justify-content: center;
   height: 30px;
   font-size: 15px;
