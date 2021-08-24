@@ -101,7 +101,7 @@ nav ul li :hover {
   border-radius: 1.0368vh;
 }
 .about-para {
-  font-size: 1.131rem;
+  font-size: 2.25rem;
   margin-left: 8.441vw;
   margin-right: 0.649935vw;
   margin-left: 7vw;
@@ -109,6 +109,7 @@ nav ul li :hover {
 .about-head {
   margin-left: 2.5974vw;
   text-align: center;
+  font-size: 3rem;
 }
 .flex {
   display: flex;
@@ -143,7 +144,7 @@ nav ul li :hover {
   padding-left: 30vh;
   padding-top: 1vh;
   float: left;
-  font-size: 7vh;
+  font-size: 5.278rem;
   /* text-align: ce/dsnter; */
 }
 
@@ -196,6 +197,7 @@ nav ul li :hover {
 .gallery-card-text{
   padding-left: 10px;
   text-align: center;
+  font-size: 1.8rem;
 }
 
 .contact-form{
