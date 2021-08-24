@@ -192,6 +192,7 @@ nav ul li :hover {
 
 .gallery-card-text{
   padding-left: 10px;
+  text-align: center;
 }
 
 .contact-form{
@@ -279,7 +280,7 @@ nav ul li :hover {
   background-color: white;
   position: absolute;
   right: 0;
-  margin-top: 5vh;
+  margin-top: 2.5vh;
   margin-right: 10vw;
   font-size: 20px;
   height: 11vh;
