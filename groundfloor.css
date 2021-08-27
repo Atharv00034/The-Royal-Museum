@@ -1,0 +1,18 @@
+html{
+    font-size: 10px;
+}
+body{
+    background-image: url(gfloor.jpg);
+}
+.img1{
+    margin-top: 439px;
+    margin-left: 72px;
+}
+.img1 img{
+    
+    height: 176px;
+    width: 132px;
+    transform: rotate(
+3deg
+);
+}
