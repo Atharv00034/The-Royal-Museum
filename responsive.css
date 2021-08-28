@@ -2,7 +2,7 @@
 {
     display: none;
 }
-@media (max-width:992px)
+@media (max-width:994px)
 {
     .toggle
     {
@@ -46,7 +46,7 @@
         position: absolute;
         left: 0;
         height: 50vh;
-        width: 100%;
+        width: 120%;
         text-align: center;
         overflow: auto ;
         background: #000;
@@ -67,15 +67,7 @@
         text-align: center;
         padding-right: 100px ;
     }
-    .iframe{
-        width: 100px;
+    .frame{
         
     }
 }
-
-header
-    {
-        background: #000;
-    
-
-    }
