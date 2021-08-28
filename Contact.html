@@ -14,20 +14,32 @@
 
 <body>
     <!--Navbar-->
-    <header>
+    <header id='header'>
         <ul>
-            <li class="logo-text">The Royal Museum</li>
+            <li><div class='logo-text'>The Royal Museum</div></li>
             <li><a href="index.html" class="button two">HOME</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
             <li><a href="Contact.html">CONTACT</a></li>
-            <li><a href="">TOUR</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            
         </ul>
-    </he>
+        <div class="toggle" onclick='toggle()'></div>
+     </header>
     <center><iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfC5pN7O7JRjlHlL8r_7aKdd58Eaq-rusoJdZVVo8kEcZPUwA/viewform?embedded=true"
             width="640" height="943" frameborder="0" marginheight="0" marginwidth="0" class="iframe">Loading…
         </iframe>
     </center>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrolly > 0);
+        })
+        function toggle(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
 </body>
 
 </html>
