@@ -1,0 +1,70 @@
+.toggle
+{
+    display: none;
+}
+@media (max-width:992px)
+{
+    .toggle
+    {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .toggle:before
+    {
+     position: absolute;
+     content: '';
+     top: 4px;
+     width: 100%;
+     height: 2px;
+     background: #fff;
+     z-index: 1;
+     box-shadow: 0 10px 0 #fff;
+     transition: 0.5s;
+    }
+    .toggle:after
+    {
+     position: absolute;
+     content: '';
+     bottom: 4px;
+     width: 100%;
+     height: 2px;
+     background: #fff;
+     z-index: 1;
+     transition: 0.5s;
+    }
+    header
+    {
+        background: #000;
+
+    }
+    header ul 
+    {
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        overflow: auto ;
+        background: #000;
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+    
+    }
+    header.active ul 
+    {
+        opacity:1;
+        visibility: visible;
+        display: block;
+    }
+    header.active ul li{
+        display: block;
+        padding-top: 50px;
+        text-align: center;
+        padding-right: 100px ;
+    }
+}
