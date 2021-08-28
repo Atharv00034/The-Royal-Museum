@@ -46,7 +46,7 @@
         position: absolute;
         left: 0;
         height: 50vh;
-        min-width: 120%;
+        width: 100%;
         text-align: center;
         overflow: auto ;
         background: #000;
@@ -76,6 +76,6 @@
 header
     {
         background: #000;
-        min-width: 105%;
+    
 
     }
