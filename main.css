@@ -43,7 +43,8 @@ header ul li :hover {
 .logo-text {
   color: white;
   position: absolute;
-  margin-left: 990px;
+  right: 0;
+  /* margin-left: 990px; */
   font-size: 3rem;
   font-family:"cooper" ;
 }
@@ -133,15 +134,15 @@ header ul li :hover {
 }
 .gallery {
   background-color: white;
-  margin-top: 40vh;
-  /* margin-right: 25px; */
   box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 50%);
   box-shadow: inset;
+  margin-left: 4vw;
+  margin-top: 35vh;
+  margin-right: 4vw;
   border-radius: 8px;
-  margin-bottom: 100px;
   background-color: black;
   color: white;
-  /* width: 80vw; */
+  width: auto;
   height: auto;
 }
 .gallery-heading {
@@ -150,7 +151,6 @@ header ul li :hover {
   padding-top: 1vh;
   float: left;
   font-size: 5.278rem;
-  /* text-align: ce/dsnter; */
 }
 
 .gallery-image {
@@ -195,7 +195,8 @@ header ul li :hover {
 .gallery-card{
   border: 3px solid white;
   width: 20vw;
-  margin-left: 2.5vw;
+  margin-bottom: 3vh;
+  margin-left: 2vw;
   border-radius: 7px;
 }
 
