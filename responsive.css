@@ -2,7 +2,7 @@
 {
     display: none;
 }
-@media (max-width:994px)
+@media (max-width:480px)
 {
     .toggle
     {
@@ -46,7 +46,7 @@
         position: absolute;
         left: 0;
         height: 50vh;
-        width: 120%;
+        width: 100%;
         text-align: center;
         overflow: auto ;
         background: #000;
@@ -67,7 +67,17 @@
         text-align: center;
         padding-right: 100px ;
     }
-    .frame{
-        
+    .gal ul{
+        display: block;
+        width: 100%;
+    }
+    .gal ul li{
+        width: 100%;
     }
 }
+@media (min-width:480px){
+    .gal ul{
+        display: flex;
+    }
+}
+
