@@ -38,7 +38,7 @@
     header
     {
         background: #000;
-        min-width: 120%;
+        min-width: 100%;
 
     }
     header ul 
@@ -81,7 +81,7 @@
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 700px){
     footer{
       width: 100vw;
     }
@@ -93,9 +93,16 @@
   
     .gallery-heading{
         padding-left: 1vh;
-        font-size: 4rem;
+        font-size: 3rem;
     }
-  
+
+    .gallery-btn{
+        height: 8vh;
+        width: 40vw;
+        margin: 0 7vh;
+        display: block;
+    }
+
     .gallery{
         padding-left: 1vw;
         padding-right: 1vw;
@@ -112,8 +119,16 @@
     }
   
     .gallery-image{
-        height: 130px;
+        height: 20vh;
         margin-left: 5vw;
         width: auto;
+    }
+
+    .gallery-title{
+        display: inherit;
+    }
+
+    .about{
+        margin-right: 1vh;
     }
   }

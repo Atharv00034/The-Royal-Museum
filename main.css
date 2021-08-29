@@ -169,13 +169,16 @@ header ul li :hover {
   height: 8vh;
   margin-top: 5vh;
   margin-right: 25px;
-  position: absolute;
   right: 60px;
   background-color: blue;
   border: black;
   border-radius: 8px;
   width: 9vw;
   font-size: 2rem;
+}
+
+.gallery-title{
+  display: flex;
 }
 
 .gallery-btn a{
