@@ -5,13 +5,14 @@ html {
 }
 body {
   margin: 0;
-  max-width: 100%;
+  min-width: 100%;
   padding: 0;
   background-image: url(Bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
   background-size: cover;
+  box-sizing: border-box;
 }
 header {
   background-color: black;

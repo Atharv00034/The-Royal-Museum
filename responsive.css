@@ -46,14 +46,13 @@
         position: absolute;
         left: 0;
         height: 50vh;
-        width: 100%;
+        width: 91.5vw;
         text-align: center;
-        overflow: auto ;
+        overflow: auto;
         background: #000;
         opacity: 0;
         visibility: hidden;
         display: block;
-    
     }
     header.active ul 
     {
