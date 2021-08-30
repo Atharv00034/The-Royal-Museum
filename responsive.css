@@ -11,6 +11,7 @@
         width: 30px;
         height: 30px;
         cursor: pointer;
+        margin-left: 10px;
     }
     .toggle:before
     {
@@ -23,6 +24,9 @@
      z-index: 1;
      box-shadow: 0 10px 0 #fff;
      transition: 0.5s;
+    }
+    .logo-text{
+        visibility: hidden;
     }
     .toggle:after
     {
@@ -38,14 +42,14 @@
     header
     {
         background: #000;
-        min-width: 100%;
+        min-width: 104%;
 
     }
     header ul 
     {
         position: absolute;
         left: 0;
-        height: 50vh;
+        height: 40vh;
         width: 91.5vw;
         text-align: center;
         overflow: auto;
