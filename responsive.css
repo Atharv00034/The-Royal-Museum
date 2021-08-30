@@ -38,7 +38,7 @@
     header
     {
         background: #000;
-        min-width: 120%;
+        min-width: 100%;
 
     }
     header ul 
@@ -46,14 +46,13 @@
         position: absolute;
         left: 0;
         height: 50vh;
-        width: 100%;
+        width: 91.5vw;
         text-align: center;
-        overflow: auto ;
+        overflow: auto;
         background: #000;
         opacity: 0;
         visibility: hidden;
         display: block;
-    
     }
     header.active ul 
     {
@@ -81,3 +80,54 @@
     }
 }
 
+@media only screen and (max-width: 700px){
+    footer{
+      width: 100vw;
+    }
+  
+    .para{
+        font-size: 4rem;
+    }
+    /* .para-2 */
+  
+    .gallery-heading{
+        padding-left: 1vh;
+        font-size: 3rem;
+    }
+
+    .gallery-btn{
+        height: 8vh;
+        width: 40vw;
+        margin: 0 7vh;
+        display: block;
+    }
+
+    .gallery{
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 80vw;
+    }
+  
+    .imgs{
+        display: block;
+    }
+  
+    .gallery-card{
+        width: 73vw;
+        margin-bottom: 5vh;
+    }
+  
+    .gallery-image{
+        height: 20vh;
+        margin-left: 5vw;
+        width: auto;
+    }
+
+    .gallery-title{
+        display: inherit;
+    }
+
+    .about{
+        margin-right: 1vh;
+    }
+  }
