@@ -42,7 +42,7 @@
     header
     {
         background: #000;
-        min-width: 104%;
+        max-width: 100%;
 
     }
     header ul 
