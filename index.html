@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Royal Museum</title>
     <link rel="stylesheet" href="main.css">
-
     <link rel="stylesheet" href="responsive.css">
 </head>
 
@@ -20,10 +19,20 @@
             <li><a href="gallery.html">TOUR</a></li>
             <li><a href="Contact.html">CONTACT</a></li>
             <li><a href="#about">ABOUT</a></li>
-
+    <nav class="navbar burger-nav">
+        <ul class="nav-ul opacity-class">
+            <li class="logo-text">The Royal Museum</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Tour</a></li>
+            <li><a href="">Aboust</a></li>
+            <li><a href="">Conact Us</a></li>
         </ul>
-        <div class="toggle" onclick='toggle()'></div>
-    </header>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
     <!-- Background Image -->
     <div class="para">
         <p class="para">Our Heritage Makes Us Unique</p>
@@ -117,16 +126,7 @@
     <footer>
         Copyright © 2020.All rights reserved
     </footer>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrolly > 0);
-        })
-        function toggle() {
-            var header = document.querySelector("header");
-            header.classList.toggle("active");
-        }
-    </script>
+    <script src="resp.js"></script>
 </body>
 
 </html>
