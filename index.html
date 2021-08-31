@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Royal Museum</title>
     <link rel="stylesheet" href="main.css">
-
     <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
     <!-- Navbar code -->
-    <nav class="burger-nav">
-        <ul>
+    <nav class="navbar burger-nav">
+        <ul class="nav-ul opacity-class">
             <li class="logo-text">The Royal Museum</li>
             <li><a href="">Home</a></li>
             <li><a href="">Gallery</a></li>
@@ -120,16 +119,7 @@
     <footer>
         Copyright © 2020.All rights reserved
     </footer>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrolly > 0);
-        })
-        function toggle() {
-            var header = document.querySelector("header");
-            header.classList.toggle("active");
-        }
-    </script>
+    <script src="resp.js"></script>
 </body>
 
 </html>
