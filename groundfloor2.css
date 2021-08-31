@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.exit-button{
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+  }
+  .gfloor2{
+    position: absolute;
+      width: 64px;
+      left: 35px;
+      top: 394px;
+      background-color: white;
+      height: 64px;
+      border-radius: 100px;
+      transform: rotate(180deg);
+  } 
+  .ffloor{
+    position: absolute;
+      width: 55px;
+      height: 55px;
+      right: 25px;
+      top: 25px;
+      border-radius: 100px;
+      background: white;
+      transform: rotate(270deg);
+  }
