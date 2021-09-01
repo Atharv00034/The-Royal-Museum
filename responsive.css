@@ -39,7 +39,7 @@
     footer{
       width: 100vw;
     }
-  
+
     .para{
         font-size: 4rem;
     }
@@ -48,9 +48,11 @@
     .gallery-heading{
         padding-left: 1vh;
         font-size: 3rem;
+        float: initial;
     }
-
+    
     .gallery-btn{
+        float: initial;
         height: 8vh;
         width: auto;
         margin: 0 7vh;
@@ -74,7 +76,9 @@
   
     .gallery-image{
         height: 20vh;
-        margin-left: 5vw;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
         width: auto;
     }
 
@@ -83,6 +87,33 @@
     }
 
     .about{
-        margin-right: 1vh;
+        margin-right: -10px;
+        display: block;
+        width: 200px;
     }
+
+    .flex{
+        display: initial;
+    }
+
+    .main-page-contact-form{
+        display: block;
+    }
+
+    .main-page-contact-button{
+        position: relative;
+        height: auto;
+        margin: 30px 30px;
+        width: auto;
+    }
+
+    .main-page-contact-text{
+        margin-bottom: -10px;
+        padding-top: 30px;
+    }
+
+    .right{
+        display: none;
+    }
+
   }
