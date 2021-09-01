@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.img{
+    margin-top: -14px;
+}
+
+.exit-button{
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+  }
+  .gfloor2{
+    position: absolute;
+      width: 64px;
+      left: 188px;
+      bottom: 64px;
+      background-color: white;
+      height: 64px;
+      border-radius: 100px;
+      transform: rotate(90deg);
+  } 
+  .ffloor{
+    position: absolute;
+      width: 64px;
+      height: 64px;
+      right: 188px;
+      bottom: 64px;
+      border-radius: 100px;
+      background: white;
+      transform: rotate(90deg)
+  }
+  .ffloor2{
+      position: absolute;
+      height: 64px;
+      width: 64px;
+      border-radius: 100px;
+      background-color: white;
+      top: 64px;
+      right: 108px;
+  }
