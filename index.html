@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" ></link> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Royal Museum</title>
@@ -27,8 +28,8 @@
         </div>
     </nav>
     <!-- Background Image -->
-    <div class="para">
-        <p class="para">Our Heritage Makes Us Unique</p>
+    <div class="para" data-aos="fade-up">
+        <p class="para" data-aos="">Our Heritage Makes Us Unique</p>
         <p class="para para-2">Welcome to Royal Museum</p>
         <p class="explore">Explore</p>
         <i class="arrow down"></i>
@@ -39,7 +40,7 @@
             <h1 class="gallery-heading ">The Royal Museum Gallery</h1>
             <button class="gallery-btn"><a href="">View All</a></button>
         </div>
-        <div class="imgs">
+        <div class="imgs" data-aos="fade-in">
             <div class="gallery-card">
                 <img src="i2-replacement.jpg" alt="" class="gallery-image">
                 <h2 class="gallery-card-text"><strong>Enlightenment</strong></h2>
@@ -107,6 +108,7 @@
                 pariatur, natus maiores, facere labore sapiente incidunt sunt voluptates repellat. </p>
         </div>
     </div>
+
     <!--Send Feedback-->
     <div class="main-page-contact-form">
         <p class="main-page-contact-text">Send Your Feedback </p>
@@ -118,6 +120,13 @@
         Copyright © 2020.All rights reserved
     </footer>
     <script src="resp.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+        });
+    </script>
 </body>
 
 </html>
