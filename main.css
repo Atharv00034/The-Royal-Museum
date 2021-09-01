@@ -139,9 +139,9 @@ nav ul li :hover {
 }
 .about-img-1 {
   margin-left: 1.558vw;
-  margin-bottom: 1vw;
-  height: 22vh;
-  width: 17vw;
+  margin-bottom: 2vw;
+  height: 29vh;
+  width: 14vw;
 }
 
 .gallery {
@@ -209,6 +209,10 @@ nav ul li :hover {
   margin-left: 2vw;
   /* padding-top: 1000px; */
   border-radius: 7px;
+}
+
+.caps{
+  text-transform: uppercase;
 }
 
 .gallery-card-text {
