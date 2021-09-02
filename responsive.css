@@ -51,14 +51,6 @@
         float: initial;
     }
     
-    .gallery-btn{
-        float: initial;
-        height: 8vh;
-        width: auto;
-        margin: 0 7vh;
-        display: block;
-    }
-
     .gallery{
         padding-left: 1vw;
         padding-right: 1vw;
@@ -114,6 +106,12 @@
 
     .right{
         display: none;
+    }
+
+    .about-img-1{
+        margin-left: 10%;
+        max-width: 80%;
+        width: auto;
     }
 
   }
