@@ -99,6 +99,13 @@
         width: auto;
     }
 
+    .main-page-contact-buttons{
+        position: relative;
+        height: auto;
+        margin: 30px 30px;
+        width: auto;
+    }
+
     .main-page-contact-text{
         margin-bottom: -10px;
         padding-top: 30px;
