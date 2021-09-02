@@ -244,6 +244,18 @@ nav ul li :hover {
   border-radius: 1.0368vh;
 }
 
+.main-page-contact-forms {
+  /* background-color: black; */
+  margin-bottom: 10vh;
+  display: flex;
+  color: white;
+  margin-left: 3.255vw;
+  margin-right: 3.255vw;
+  /* box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 50%); */
+  box-shadow: inset;
+  border-radius: 1.0368vh;
+}
+
 .main-page-contact-text {
   margin-left: 7vw;
   font-size: 4rem;
