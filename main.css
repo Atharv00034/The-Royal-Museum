@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 html {
   scroll-behavior: smooth;
   font-size: 10px;
@@ -13,6 +15,7 @@ body {
   background-size: auto;
   background-size: cover;
   box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
 }
 nav {
   background-color: black;
@@ -123,6 +126,7 @@ nav ul li :hover {
   background-color: black;
   border-radius: 1.0368vh;
 }
+
 .about-para {
   font-size: 2.25rem;
   margin-left: 8.441vw;
@@ -176,26 +180,8 @@ nav ul li :hover {
   margin-left: 40px;
 }
 
-.gallery-btn {
-  height: 8vh;
-  margin-top: 5vh;
-  margin-right: 25px;
-  right: 60px;
-  background-color: blue;
-  border: black;
-  float: right;
-  border-radius: 8px;
-  width: 9vw;
-  font-size: 2rem;
-}
-
 .gallery-title {
   display: flex;
-}
-
-.gallery-btn a {
-  text-decoration: none;
-  color: white;
 }
 
 .imgs {
@@ -213,12 +199,16 @@ nav ul li :hover {
 
 .caps{
   text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.font-size{
+  font-size: 1.3rem;
 }
 
 .gallery-card-text {
   padding-left: 10px;
   text-align: center;
-  font-size: 1.8rem;
 }
 
 .btn {
